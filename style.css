@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    background-image: url(assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 652px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.banner-content {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banner-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 0px;
+}
+
+.banner-content button {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-img {
+    width: 240.28px;
+    height: 240px;
+}
+
+/* second section (Why web development) starts here  */
+
+.second-section {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.second-section-part1 {
+    /* border: 2px solid green; */
+    text-align: center;
+    padding: 50px 97px;
+    /* margin-bottom: 48px; */
+}
+
+.second-section-part1 h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.second-section-part1 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.second-section-part2 {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 48px;
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.second-section-part2 h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    
+}
+
+.second-section-part2 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+
+.second-section-part2 button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.second-section-part3 {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 48px;
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.second-section-part3 h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    
+}
+
+.second-section-part3 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+
+.second-section-part3 button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.second-section-part4 {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 48px;
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.second-section-part4 h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    
+}
+
+.second-section-part4 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+
+.second-section-part4 button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+/* third section (My Insperation) starts here  */
+
+.third-section {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.third-section-content{
+    /* border: 2px solid green; */
+    text-align: center;
+    padding: 5px 97px 20px 97px;
+}
+
+.third-section-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.third-section-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.third-section-video {
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 2px
+}
+
+/* fourth section (My current Target) starts here  */
+
+.fourth-section {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.fourth-section-content{
+    /* border: 2px solid green; */
+    text-align: center;
+    padding: 5px 97px 20px 97px;
+}
+
+.fourth-section-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.fourth-section-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fourth-section-target-skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+}
+
+.fourth-section-target-skills h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.fourth-section-target-skills p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fourth-section-target-skills a {
+    color: black;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.html {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(248, 72, 28, 0.05);
+}
+
+.css {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(6, 83, 238, 0.05);
+}
+
+.javascript {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* fifth section (I Need Support) starts here  */
+.fifth-section {
+    /* border: 2px solid red; */
+    background-image: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.fifth-section-content{
+    text-align: center;
+    padding: 64px 48px 64px 48px;
+}
+
+.fifth-section-content h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.fifth-section-content p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fifth-section-search {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fifth-section-submit {
+    width: 120px;
+    height: 60px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer section starts here  */
+
+.footer-section {
+    width: 1300px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+}
+
+.footer-section-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 97px 20px 97px;
+}
+
+.footer-section-content strong {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 600;
+}
+
